@@ -356,7 +356,7 @@ t %>% ggplot(aes(age,avg)) + geom_point() + geom_smooth(method = "loess")
 
 # Older movies have higher average ratings than newer ones. Model 5 is going to try to improve accuracy by incorporating age averages.
 # This loop will find the best parameter for the age variable.
-reg_par_5 <- seq(100, 150, 5)
+reg_par_5 <- seq(30, 50, 5)
 
 model_5_rmses <- lapply(reg_par_5, function(p){
   
@@ -517,5 +517,6 @@ pred <- r$predict(r_validation, out_memory())
 
 # Check final RMSE
 RMSE(validation$rating, pred)
+
 
 
