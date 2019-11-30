@@ -5,7 +5,7 @@ On the first approach, an attempt to optimize the model described in the book "I
 
 This project was made using R Studio version 1.2.5019. R version 3.6.1.
 
-This repo contains 3 files. A PDF, an Rmarkdown and an R file contating all the code used in building this project.
+This repo contains 3 files. A PDF, an Rmarkdown and an R file containing all the code used in building this project.
 
 
 
