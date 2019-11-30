@@ -4,8 +4,6 @@ author: "Bilal Khaiar"
 date: "11/15/2019"
 output:
   pdf_document: default
-  html_document:
-    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
